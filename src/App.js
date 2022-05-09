@@ -7,9 +7,6 @@ function App() {
       <form>
         <button class="Login">로그인</button>
       </form>
-      <form>
-        <button class="Join">회원가입</button>
-      </form>
       <div>
         {/* 로고이미지 */}
         <img src="kimleejung_minilogo.png" className="App-logo" alt='logo'></img>
