@@ -6,7 +6,7 @@ function App() {
     <>
       <form>
         <button class="Login">로그인</button>
-        <button>
+        <button className="TOP_Button">
           <img src="arrow_right.png" className="TOP" alt="기업순위"/>
         </button>
       </form>

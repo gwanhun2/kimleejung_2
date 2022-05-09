@@ -16,14 +16,16 @@
     left: 80%;
     top:10px;
   }
-
-  .TOP {
+  .TOP_Button{
     display:flex;
     position:absolute;
-    width: 25px;
-    height: 25px;
-    left:85%;
+    left:90%;
     top:17px;
+  }
+  .TOP {    
+    width: 60px;
+    height: 60px; 
+    
   }
 
   @media (prefers-reduced-motion: no-preference) {
