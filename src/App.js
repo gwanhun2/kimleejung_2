@@ -10,12 +10,12 @@ function App() {
           <img src="arrow_right" className="TOP" alt="기업순위"/>
         </button>
       </form>
-      <div>
+
+      <div className="App-header">
         {/* 로고이미지 */}
         <img src="kimleejung_minilogo.png" className="App-logo" alt='logo'></img>
         {/*로고명*/}
         <img src="kimleejung_letterlogo.png" className="App-size" alt='logoName'></img>
-      </div>
 
       &nbsp;&nbsp;
       {/*검색창*/}
@@ -29,6 +29,7 @@ function App() {
           </button>
         </from>
       </b>
+      </div>
     </>
   );
 }
