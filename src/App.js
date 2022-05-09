@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <form>
-        <button class="Login">로그인</button>
+        <button>
+          <img src="login.png" className='Login' alt="로그인"/>
+           </button>
         <button className="TOP_Button">
           <img src="arrow_right.png" className="TOP" alt="기업순위"/>
         </button>

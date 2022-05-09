@@ -8,6 +8,8 @@
   }
 
   .Login {
+    background-color:transparent;
+    border: 0;
     width: 60px;
     height: 40px;
     margin: auto;
@@ -17,6 +19,8 @@
     top:10px;
   }
   .TOP_Button{
+    background-color:transparent;
+    border: 0;
     display:flex;
     position:absolute;
     left:90%;
@@ -83,6 +87,8 @@
     }
 
     .App-button{
+      background-color:transparent;
+    border: 0;
       width: 50px;
       height: 50px;
     
