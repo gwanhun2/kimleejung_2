@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>1751039 1751006 src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <form>
+        <button class="Login">로그인</button>
+      </form>
+      <form>
+        <button class="Join">회원가입</button>
+      </form>
+      <div>
+        {/* 로고이미지 */}
+        <img src="kimleejung_minilogo.png" className="App-logo" alt='logo'></img>
+        {/*로고명*/}
+        <img src="kimleejung_letterlogo.png" className="App-size" alt='logoName'></img>
+      </div>
+
+      &nbsp;&nbsp;
+      {/*검색창*/}
+      <b>
+        <from>
+          <input type="search" className="App-Search" placeholder="기업명을 입력하시오." id="Enterprise" />
+          &nbsp;
+          {/* 검색버튼 */}
+          <button>
+            <img src="button.png" className="App-button" alt='버튼 이미지' />
+          </button>
+        </from>
+      </b>
+    </>
   );
 }
+
 
 export default App;
