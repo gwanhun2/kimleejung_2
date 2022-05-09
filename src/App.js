@@ -16,8 +16,9 @@ function App() {
         <img src="kimleejung_minilogo.png" className="App-logo" alt='logo'></img>
         {/*로고명*/}
         <img src="kimleejung_letterlogo.png" className="App-size" alt='logoName'></img>
-
+      </div>
       &nbsp;&nbsp;
+      <div className="App-search">
       {/*검색창*/}
       <b>
         <from>
