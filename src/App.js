@@ -2,18 +2,29 @@ import './App.css';
 import React from 'react';
 
 function App() {
+  const onLogin = (e) => {
+    alert('로그인')
+  }
+  const onSide = (e) => {
+    alert('기업순위')
+  }
+
   return (
     <>
-      <form>
+      <form onSubmit={onLogin}>
         {/*로그인*/}
         <button className="Login_Button">
           <img src="login.png" className='Login' alt="로그인"/>
         </button>
+      </form>
+
+      <form onSubmit={onSide}>
         {/*기업순위*/}
         <button className="TOP_Button">
           <img src="arrow_right.png" className="TOP" alt="기업순위"/>
         </button>
       </form>
+      
       <form className="Main">
           <div className="App-header">
             {/* 로고이미지 */}
