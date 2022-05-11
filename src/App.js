@@ -32,6 +32,20 @@ function App() {
         </form>
 
     <div className='nav' style={isNav?{display:"block"}:{display:'none'}}>
+      
+      {/*sample data*/}
+      <h1>기업 순위 TOP 10</h1>
+      <ul>1순위</ul>
+      <ul>2순위</ul>
+      <ul>3순위</ul>
+      <ul>4순위</ul>
+      <ul>5순위</ul>
+      <ul>6순위</ul>
+      <ul>7순위</ul>
+      <ul>8순위</ul>
+      <ul>9순위</ul>
+      <ul>10순위</ul>
+
         <form onSubmit={onSide}>
           <button className="Side_Button">
             <img src="arrow_pull.png" className="TOP" alt="기업순위" />
