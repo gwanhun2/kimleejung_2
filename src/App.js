@@ -27,24 +27,24 @@ function App() {
     {/* 기업순위 */}
     <form onSubmit={onSide}>
           <button className="TOP_Button">
-            <img src="arrow_push.png" className="TOP" alt="기업순위" />
+            <img src="arrow_push.png" className="TOP" alt="배당률 순위" />
           </button>
         </form>
 
     <div className='nav' style={isNav?{display:"block"}:{display:'none'}}>
       
       {/*sample data*/}
-      <h1>기업 순위 TOP 10</h1>
-      <ul>1순위</ul>
-      <ul>2순위</ul>
-      <ul>3순위</ul>
-      <ul>4순위</ul>
-      <ul>5순위</ul>
-      <ul>6순위</ul>
-      <ul>7순위</ul>
-      <ul>8순위</ul>
-      <ul>9순위</ul>
-      <ul>10순위</ul>
+      <h1>배당률 TOP 10</h1>
+      <ul>1순위, 기업 명, n%</ul>
+      <ul>2순위, 기업 명, n%</ul>
+      <ul>3순위, 기업 명, n%</ul>
+      <ul>4순위, 기업 명, n%</ul>
+      <ul>5순위, 기업 명, n%</ul>
+      <ul>6순위, 기업 명, n%</ul>
+      <ul>7순위, 기업 명, n%</ul>
+      <ul>8순위, 기업 명, n%</ul>
+      <ul>9순위, 기업 명, n%</ul>
+      <ul>10순위, 기업 명, n%</ul>
 
         <form onSubmit={onSide}>
           <button className="Side_Button">
